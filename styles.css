@@ -1,13 +1,32 @@
 .perkenalan{
     display: flex;
 }
+button{
+    background-color:azure ;
+    border: 1px solid black;
+    padding: 10px 20px;
+
+}
+button:hover{
+    background-color: #ffd0d0;
+}
 img{
     max-width: 300px;
     align-content: space-between;
     gap: 100px;
 }
-
-.navbar{
+.hero-text{
+    align-content: space-between;
+    gap: 100px;
+    margin: 30px;
+}
+.tentang-aku{
+    display: flex;
+    align-content: space-between;
+    gap: 100px;
+    margin: 30px;
+}
+/* .navbar{
     text-decoration: none;
      margin: 0;
   padding: 0;
@@ -18,34 +37,47 @@ img{
 .nav-links{
     text-decoration: none;
     color: black;
-}
+} */
 .list-projek{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3,1pr);
 }
-/* ul {
+
+.card{
+    display: flex;
+    grid-template-columns: repeat(3,1pr);
+    max-width: 100px;
+}
+article{
+order: 1px solid black;
+}
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
-} */
+  background-color: #ffd0d0;
+} 
 
-/* ul li {
+ ul li {
   float: left;
 }
-
+section{
+    border: 1px solid black;
+    max-width: fit-content;
+}
 ul li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #ffd0d0;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: white;
 }
 *{
     background-color: azure;
-} */
+}
