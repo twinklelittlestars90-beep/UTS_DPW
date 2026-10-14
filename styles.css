@@ -15,6 +15,13 @@ img{
     align-content: space-between;
     gap: 100px;
 }
+.css{
+    max-width: fit-content;
+}
+.html{
+    max-width: 20px;
+}
+.card
 .hero-text{
     align-content: space-between;
     gap: 100px;
@@ -40,13 +47,17 @@ img{
 } */
 .list-projek{
     display: flex;
-    grid-template-columns: repeat(3,1pr);
+    align-content: space-between;
+    gap: 100px;
+    margin: 30px;
 }
 
+
+
 .card{
-    display: flex;
-    grid-template-columns: repeat(3,1pr);
-    max-width: 100px;
+ 
+    /* grid-template-columns: repeat(3,1pr);
+    max-width: 100px; */
 }
 article{
 order: 1px solid black;
