@@ -7,8 +7,15 @@ button{
     padding: 10px 20px;
 
 }
+.card{
+    border: 1px solid black;
+    background:
+}
 button:hover{
     background-color: #ffd0d0;
+}
+.form{
+    
 }
 img{
     max-width: 300px;
